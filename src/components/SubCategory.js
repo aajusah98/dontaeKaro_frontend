@@ -28,7 +28,7 @@ const SubCategory = () => {
             <th>SubCategoryName</th>
             <th>Category Name</th>
             <th>Category Code</th>
-            <th>Action</th>
+            {/* <th>Action</th> */}
           </tr>
         </thead>
         <tbody>
@@ -38,13 +38,13 @@ const SubCategory = () => {
               <td>{subcategory.subCategoryName}</td>
               <td>{subcategory.categoryId.categoryName}</td>
               <td>{subcategory.categoryId.categoryCode}</td>
-              <td
+              {/* <td
                 style={{
                   justifyContent: 'space-evenly'
                 }}
               >
                 <i class="fa fa-trash"></i> <i class="fa fa-pencil"></i>
-              </td>
+              </td> */}
             </tr>
           ))}
         </tbody>

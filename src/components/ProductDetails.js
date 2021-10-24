@@ -36,10 +36,10 @@ const ProductDetails = () => {
               <p>Address: {state?.address}</p>
             </div>
           </div>
-          <div className="buttons">
+          {/* <div className="buttons">
             <div className="button">Add to cart</div>
             <div className="button colored">Buy now</div>
-          </div>
+          </div> */}
         </div>
         <div className="preview">
           <div className="imgs">

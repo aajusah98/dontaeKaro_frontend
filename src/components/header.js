@@ -34,10 +34,10 @@ export default function Header() {
           </Link>
         )}
       </ul>
-      <div className="search">
+      {/* <div className="search">
         <i className="fa fa-search"></i>
         <i className="fa fa-shopping-basket"></i>
-      </div>
+      </div> */}
     </nav>
   );
 }
