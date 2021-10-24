@@ -1,0 +1,120 @@
+.header-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #23242b;
+  color: #fff;
+}
+.u-name {
+  font-size: 20px;
+  padding-left: 17px;
+}
+.u-name b {
+  color: #127b8e;
+}
+.header-profile i {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+.header-profile i:hover {
+  color: #127b8e;
+}
+.user-p {
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+.user-p img {
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.user-p h4 {
+  color: #ccc;
+  padding: 5px 0;
+}
+.side-bar {
+  width: 250px;
+  background: #262931;
+  min-height: 100vh;
+  transition: 500ms width;
+  -webkit-transition: 500ms width;
+  -moz-transition: 500ms width;
+  -ms-transition: 500ms width;
+  -o-transition: 500ms width;
+}
+.profile-body {
+  display: flex;
+}
+.section-1 {
+  width: 100%;
+  background: #272b34;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-1 h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.side-bar ul {
+  margin-top: 20px;
+  list-style: none;
+}
+.side-bar ul li {
+  font-size: 16px;
+  padding: 15px 0px;
+  padding-left: 20px;
+  transition: 500ms background;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-transition: 500ms background;
+  -moz-transition: 500ms background;
+  -ms-transition: 500ms background;
+  -o-transition: 500ms background;
+}
+.side-bar ul .profile-list:hover {
+  background: #127b8e;
+}
+.profile-active-background{
+	background:#514e52
+}
+.side-bar ul .profile-list {
+  text-decoration: none;
+  color: #eee;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.side-bar ul li .profile-list i {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 23px;
+}
+#navbtn {
+  display: inline-block;
+  margin-left: 70px;
+  font-size: 20px;
+  transition: 500ms color;
+}
+#checkbox {
+  display: none;
+}
+#checkbox:checked ~ .profile-body .side-bar {
+  width: 60px;
+}
+#checkbox:checked ~ .profile-body .side-bar .user-p {
+  visibility: hidden;
+}
+#checkbox:checked ~ .profile-body .side-bar .profile-list span {
+  display: none;
+}
